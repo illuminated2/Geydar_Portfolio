@@ -911,3 +911,160 @@ body {
         font-size: 1.1rem;
     }
 }
+/* Улучшения для мобильных устройств */
+@media (max-width: 768px) {
+    /* Герой-секция */
+    .hero {
+        height: 70vh;
+    }
+    
+    .hero-title {
+        font-size: 2rem;
+        letter-spacing: 3px;
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+    
+    /* Навигация */
+    .nav-menu {
+        gap: 1.5rem;
+    }
+    
+    .nav-link {
+        font-size: 0.9rem;
+    }
+    
+    /* Биография */
+    .name-title {
+        font-size: 2rem;
+        letter-spacing: 3px;
+    }
+    
+    .name-subtitle {
+        font-size: 1rem;
+    }
+    
+    .bio-card {
+        padding: 2rem 1rem;
+    }
+    
+    .bio-card h3 {
+        font-size: 1.3rem;
+    }
+    
+    /* Галерея */
+    .gallery-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .gallery-item {
+        aspect-ratio: 3/2;
+    }
+    
+    /* Компетенции */
+    .exercise-item {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        margin-bottom: 4rem;
+    }
+    
+    .exercise-content h3 {
+        font-size: 1.8rem;
+    }
+    
+    .exercise-content p {
+        font-size: 1rem;
+    }
+    
+    /* Достижения */
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .achievement-number {
+        font-size: 2.5rem;
+    }
+    
+    /* Контакты */
+    .contact-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .contact-info {
+        text-align: center;
+    }
+    
+    /* Общие улучшения */
+    .container {
+        padding: 0 1rem;
+    }
+    
+    .premium-section {
+        padding: 80px 0;
+    }
+    
+    /* Анимированные фигуры */
+    .exercise-figure {
+        width: 120px;
+        height: 120px;
+    }
+    
+    #benchPressFigure {
+        right: 2%;
+        top: 10%;
+    }
+    
+    #squatFigure {
+        left: 2%;
+        top: 30%;
+    }
+    
+    #deadliftFigure {
+        right: 2%;
+        bottom: 10%;
+    }
+}
+
+/* Для очень маленьких экранов */
+@media (max-width: 480px) {
+    .nav-container {
+        gap: 2rem;
+        padding: 0 1rem;
+    }
+    
+    .nav-menu {
+        gap: 1rem;
+    }
+    
+    .nav-link {
+        font-size: 0.8rem;
+    }
+    
+    .cta-button {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+    
+    .hero-title {
+        font-size: 1.8rem;
+    }
+    
+    .bio-grid {
+        gap: 1rem;
+    }
+    
+    .education-grid,
+    .projects-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .qualities-grid {
+        grid-template-columns: 1fr;
+    }
+}
